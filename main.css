@@ -1,0 +1,287 @@
+body {
+  font-family: Tahoma, sans-serif;
+  font-weight: 300;
+}
+
+header {
+ padding: 20px;
+}
+
+/*
+.mush {
+  list-style: none;
+  padding: 0;
+  margin: 30px;
+  width: 50px;
+  opacity: 0.5;
+  transition: opacity .5s ease-in-out;
+  text-transform: uppercase;
+}
+
+.mush:hover {
+  opacity: 1;
+}
+
+.mush li {
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  transition: width .5s ease-in-out;
+}
+
+.mush li:hover {
+  width: 200px;
+  height: 50px;
+}
+
+.mush li a,
+.poison li a {
+  display: block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  background: #666;
+  color: white;
+  padding-left: 15px;
+  transition: all .4s ease-in-out;
+  position: relative;
+  text-indent: 40px;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.mush li a::before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 50px;
+  width: 50px;
+  top: 2px;
+  left: -2px;
+}
+
+
+.mushroom a:hover {
+  background: green;
+}
+
+.poison a:hover {
+  background: red;
+}
+
+.mushroom a::before {
+  background: url(15.png);
+  background-size: 50px;
+}
+
+.poison a::before {
+  background: url(16.png) center no-repeat;
+  background-size: 40px;
+
+}
+*/
+
+header .row,
+footer .row {
+  display: flex-end;
+  justify-content: center;
+  align-items: center;
+  text-justify: center;
+
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  text-justify: center;
+  
+}
+
+header p {
+  padding: 0 20px;
+ 
+
+}
+
+.jumbotron {
+  transition-duration: 1s;
+  transition-property: background;
+  transition-timing-function: ease-in-out;
+  align-items: center;
+  animation-delay: 0.1s;
+  background-image: url(1.jpg);
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  height: 950px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  margin-top: 0%;
+}
+
+.jumbotron:hover {
+  background-image: url(2.jpg);
+  
+      }
+
+   
+
+
+.jumbotron h2 {
+  font-size: 80px;
+  font-weight: 600;
+  margin: 0;
+  color: grey;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+
+
+.abc {
+  margin-bottom: 5px;
+}
+
+.gallery {
+  background-image: url(4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 90%;
+  background-size: 90%;
+  height: 350px;
+  margin-bottom: 20px;
+  transition: background .5s ease-in-out;
+}
+
+.gallery:hover {
+  background-image: url(9.jpg);
+}
+
+
+.cleanforest {
+  background-image: url(6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 90%;
+  background-size: 90%;
+  height: 350px;
+  margin-bottom: 20px;
+  transition: background .5s ease-in-out;
+}
+
+.cleanforest:hover {
+  background-image: url(10.jpg);
+}
+
+
+.myths {
+  background-image: url(5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 90%;
+  background-size: 90%;
+  height: 350px;
+  margin-bottom: 20px;
+  transition: background .5s ease-in-out;
+}
+
+.myths:hover {
+  background-image: url(7.jpg);
+}
+
+.mushart {
+  background-image: url(3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 90%;
+  background-size: 90%;
+  height: 350px;
+  margin-bottom: 20px;
+  transition: background .5s ease-in-out;
+}
+
+.mushart:hover {
+  background-image: url(8.jpg);
+}
+
+
+
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+section .row p {
+  font-size: 30px;
+  text-align: center;
+ }
+
+section a {
+  position: relative;
+}
+
+section a:active {
+  top: 3px;
+  left: 3px;
+}
+
+section .row button {
+  width: 95%;
+  text-transform: uppercase;
+  color: green;
+  height: 40px;
+  line-height: 25px;
+  font-size: 25px;
+}
+
+/*.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+*/
+
+
+
+
+
+.row img {
+  max-height: 40px;
+
+  }
+
+
+footer .row p {
+  font-size: 10px;
+   height: 20px;
+  line-height: 40px;
+}
+
+@media only screen and (max-width: 1200px) {
+  section .row button {
+    height: 0;
+    border: 0;
+    color: #fff;
+    background: transparent;  }
+}
+
+
+footer {
+  margin-bottom: 20px;
+}
